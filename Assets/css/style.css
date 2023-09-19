@@ -7,19 +7,13 @@ body {
   font-size: 16px;
   background-color: #efefef;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .container {
-  width: 1024px;
-  margin: 20px auto;
-}
-section {
-  background-color: white;
-  margin: 60px 30px;
-  border-radius: 20px;
-  padding: 12px 25px;
-}
-p {
-  line-height: 22px;
-  margin-bottom: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 h1 {
   font-size: 50px;
@@ -41,21 +35,45 @@ h3 {
   color: #393c6c;
   line-height: 22px;
 }
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
 
-/*BODY*/
+/*---------------------------------*/
+/*--------------HEADER-------------*/
+/*---------------------------------*/
+
 header {
   background-color: white;
   border-bottom: 1px solid #f3735f;
+  height: 80px;
+}
+header img {
+  width: 200px;
+  margin-top: 22px;
 }
 
+/*---------------------------------*/
+/*--------------MAIN---------------*/
+/*---------------------------------*/
+
+section {
+  background-color: white;
+  margin-top: 60px;
+  border-radius: 20px;
+  padding: 12px 25px;
+}
 section img {
   width: 33%;
-  height: 500px;
-  padding: 6px;
+  height: 300px;
+
   object-fit: cover;
+  border-radius: 15px;
 }
 
 .center-text {
+  margin-top: 20px;
   text-align: center;
 }
 .temps-cuisson {
@@ -63,19 +81,25 @@ section img {
   color: #efefef;
   border-radius: 10px;
   width: 40%;
-  height: 30px;
-  margin-bottom: 30px;
-}
-p.temps-cuisson {
+  margin: 30px auto;
   text-align: center;
+  padding: auto 0;
 }
 
 ul {
-  list-style: disc;
+  list-style: inside;
+  color: #6c6c6c;
 }
 
+/*---------------------------------*/
+/*--------------FOOTER-------------*/
+/*---------------------------------*/
+
 footer {
-  background-color: #efefef;
-  padding: 40px 0;
+  height: 100px;
+}
+
+footer p {
   text-align: center;
+  line-height: 100px;
 }
